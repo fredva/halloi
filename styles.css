@@ -16,7 +16,7 @@ html {
 .xl { font-size: 4.2em; }
 
 audio {
-    bottom: 0;
+    bottom: 20px;
     position: fixed;
     width: 100%;
 }
