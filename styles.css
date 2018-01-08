@@ -1,3 +1,20 @@
+html {
+    font-size: 28px;
+}
+
+.line-wrapper {
+    margin-top: 14em;
+}
+
+#line {
+    text-align: center;
+}
+
+.xs { font-size: .3em; }
+.s { font-size: .8em; }
+.l { font-size: 1.5em; }
+.xl { font-size: 4.2em; }
+
 audio {
     bottom: 0;
     position: fixed;
