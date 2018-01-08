@@ -1,6 +1,3 @@
-
-
-
 var FREQUENCY = 500;
 
 var lyrics = [
@@ -14,9 +11,11 @@ var lyrics = [
 ]
 
 function getNextLyric(time) {
-    var pastLyrics = lyrics.filter(function(l) {return l[0] < time});
-    var last = unplayedLyrics[-1];
-    return next != undefined ? next[1] : "";
+    var pastLines = lyrics.filter(function(l) {return l[0] < time});
+    if (pastLines.length) {
+        return pastLines[pastLines.length - 1][1];
+    }
+    return "";
 }
 
 function display(text, element) {
@@ -31,7 +30,7 @@ function displayLyrics(player, lyric) {
 
 }
 
-$(function() {
+document.addEventListener("DOMContentLoaded", function(event) { 
     var lyric = document.getElementById("lyric");
 
     var player = document.getElementById("player");
