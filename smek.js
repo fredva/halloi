@@ -25,12 +25,17 @@ function display(next, element) {
 
 function displayLyrics(player, lyrics, line) {
     var next = getNextLine(lyrics, player.currentTime)
-    console.log(player.currentTime, next);
+    //console.log(player.currentTime, next);
     display(next, line);
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
+function addKeyListeners(player) {
+   document.addEventListener("keydown", function(event) { if (event.key === " ") { player.paused ? player.play() : player.pause() }});
+   document.addEventListener("keydown", function(event) { if (event.key === "ArrowUp") { player.playbackRate += 0.1; }});
+   document.addEventListener("keydown", function(event) { if (event.key === "ArrowDown") { player.playbackRate -= 0.1; }});
+}
 
+document.addEventListener("DOMContentLoaded", function(event) {
     var lyrics = parseLyrics(halloi);
 
     var line = document.getElementById("line");
@@ -40,9 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     player.addEventListener("playing", function() { intervalId = setInterval(function() { displayLyrics(player, lyrics, line) }, FREQUENCY) } );
     player.addEventListener("pause", function() { clearInterval(intervalId) } );
-    
-    setInterval(function() {
-        var text = next != undefined ?  next[1] : ""
-        lyric.innerHTML = text;
-    }, 10000000)
+    player.addEventListener("seeking", function() { displayLyrics(player, lyrics, line) } );
+
+    addKeyListeners(player);
 })  
