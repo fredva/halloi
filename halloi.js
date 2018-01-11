@@ -24,11 +24,32 @@ var halloi =
 "42.1;vi svetta\n" +
 "42.9;vi tok av;\n" +
 "43.4;vi letta;\n" +
-"44.1;satt ???;\n" +
+"44.0;satt ???;\n" +
 "44.6;til metal;\n" +
 "45.1;på sletta;\n" +
 "45.7;fikk noia\n" +
-"46.4;fikk hetta\n" +
+"46.3;fikk hetta\n" +
+"46.9;men det ække no å laga no;\n" +
+"48;halloi;xl\n" +
+"48.5;for detta;\n" +
+"49.2;det ække no å laga no halloi 🎵;\n" +
+"52;halloi;xl\n" +
+"52.8;partyboys får hetta;\n" +
+"54;men det ække no å laga no;\n" +
+"55;halloi;xl\n" +
+"55.6;for detta;\n" +
+"57;vi lagær halloi-oi;\n" +
+"59;;\n" +
+"59.3;vi lagær halloi-oi;\n" +
+"60.3;oi;\n" +
+"60.7;oi;s\n" +
+"61;oi;xs\n" +
+"62.3;vi lagær halloi;\n" +
+"63.3;vi lagær og vi lagær halloi;\n" +
+"65;vi lagær halloi;\n" +
+"66.1;kjøregår og vi lagær halloi;\n" +
+"67.5;;\n" +
+"67.9;kjøregår vi lagær halloi;\n" +
 
 
 "174;det ække no å laga no halloi for detta\n" +
