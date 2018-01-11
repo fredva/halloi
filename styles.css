@@ -1,19 +1,28 @@
 html {
     font-size: 28px;
+    height: 100%;
+    text-transform: uppercase;
 }
 
-.line-wrapper {
-    margin-top: 14em;
-}
-
-#line {
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
     text-align: center;
 }
 
+p {
+    margin: 0;
+}
+
+#line {
+}
+
 .xs { font-size: .3em; }
-.s { font-size: .8em; }
-.l { font-size: 1.5em; }
-.xl { font-size: 4.2em; }
+.s { font-size: .7em; }
+.l { font-size: 14vw; }
+.xl { font-size: 24vw; }
 
 audio {
     bottom: 20px;
