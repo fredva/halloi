@@ -23,10 +23,10 @@ var halloi =
 "41.5;for detta;\n" +
 "42.1;vi svetta\n" +
 "42.9;vi tok av;\n" +
-"43.4;vi letta;\n" +
-"44.0;satt ???;\n" +
-"44.6;til metal;\n" +
-"45.1;på sletta;\n" +
+"43.6;vi letta;\n" +
+"44.2;satt ???;\n" +
+"44.7;til metal;\n" +
+"45.3;på sletta;\n" +
 "45.7;fikk noia\n" +
 "46.3;fikk hetta\n" +
 "46.9;men det ække no å laga no;\n" +
@@ -50,6 +50,11 @@ var halloi =
 "66.1;kjøregår og vi lagær halloi;\n" +
 "67.5;;\n" +
 "67.9;kjøregår vi lagær halloi;\n" +
+"70.5;det ække no å laga no;\n" +
+"71.5;halloi;xl\n" +
+"72;for detta;\n" +
+"72.9;det ække no å laga no;\n" +
+"73.9;halloi;xl\n" +
 
 
 "174;det ække no å laga no halloi for detta\n" +
