@@ -23,19 +23,19 @@ var halloi =
 "41.5;for detta;\n" +
 "42.1;vi svetta\n" +
 "42.9;vi tok av;\n" +
-"43.6;vi letta;\n" +
-"44.2;satt ???;\n" +
+"43.5;vi letta;\n" +
+"44.1;satt pedal;\n" +
 "44.7;til metal;\n" +
 "45.3;på sletta;\n" +
-"45.7;fikk noia\n" +
-"46.3;fikk hetta\n" +
+"45.9;fikk noia\n" +
+"46.4;fikk hetta\n" +
 "46.9;men det ække no å laga no;\n" +
 "48;halloi;xl\n" +
 "48.5;for detta;\n" +
 "49.2;det ække no å laga no halloi 🎵;\n" +
 "52;halloi;xl\n" +
 "52.8;partyboys får hetta;\n" +
-"54;men det ække no å laga no;\n" +
+"53.9;men det ække no å laga no;\n" +
 "55;halloi;xl\n" +
 "55.6;for detta;\n" +
 "57;vi lagær halloi-oi;\n" +
@@ -55,6 +55,30 @@ var halloi =
 "72;for detta;\n" +
 "72.9;det ække no å laga no;\n" +
 "73.9;halloi;xl\n" +
+"74.7;jeg sveveri opp opp opp opp opp;\n" +
+"76.7;kan du følge meg ned;\n" +
+"78;følge meg ned;\n" +
+"79.3;jeg ruller en rev;\n" +
+"80.6;ringen er smek;\n" +
+"81.7;jeg sveveri opp;\n" +
+"82.5;kan du følge meg ned;\n" +
+"84.1;jeg sveveri opp opp opp opp opp;\n" +
+"86.2;kan du følge meg ned;\n" +
+"87.5;følge meg ned;\n" +
+"88.8;jeg ruller en rev;\n" +
+"89.8;ringen er smek;\n" +
+"90.9;jeg sveveri opp;\n" +
+"92;kan du følge følge følge meg ned;\n" +
+"94;påsa med molly;\n" +
+"95.1;få som betaler;\n" +
+"96.4;partyboys får som fortjent;\n" +
+"98;halloi;xl\n" +
+"98.7;ta det bokstavelig;\n" +
+"99.7;jeg må få poonani;\n" +
+"100.7;de vil ligge med han fyren de kaller;\n" +
+"102.3;smek;l\n" +
+"102.9;e;l\n" +
+"103.5;reven;xl\n" +
 
 
 "174;det ække no å laga no halloi for detta\n" +
