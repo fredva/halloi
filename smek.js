@@ -33,6 +33,8 @@ function addKeyListeners(player) {
    document.addEventListener("keydown", function(event) { if (event.key === " ") { player.paused ? player.play() : player.pause() }});
    document.addEventListener("keydown", function(event) { if (event.key === "ArrowUp") { player.playbackRate += 0.1; }});
    document.addEventListener("keydown", function(event) { if (event.key === "ArrowDown") { player.playbackRate -= 0.1; }});
+   document.addEventListener("keydown", function(event) { if (event.key === "ArrowLeft") { player.currentTime -= 1; }});
+   document.addEventListener("keydown", function(event) { if (event.key === "ArrowRight") { player.currentTime += 1; }});
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
