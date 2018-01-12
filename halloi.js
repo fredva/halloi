@@ -74,7 +74,7 @@ var halloi =
 "96.4;partyboys får som fortjent;\n" +
 "98;halloi;xl\n" +
 "98.7;ta det bokstavelig;\n" +
-"99.7;jeg må få poonani;\n" +
+"99.8;jeg må få poonani;\n" +
 "100.7;de vil ligge med han fyren de kaller;\n" +
 "102.3;smek;l\n" +
 "102.9;e;l\n" +
