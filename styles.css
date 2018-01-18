@@ -17,6 +17,7 @@ p {
 }
 
 #line {
+    cursor: pointer;
 }
 
 .xs { font-size: .3em; }
@@ -25,7 +26,5 @@ p {
 .xl { font-size: 24vw; }
 
 audio {
-    bottom: 20px;
-    position: fixed;
-    width: 100%;
+    display: none;
 }

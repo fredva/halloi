@@ -29,12 +29,17 @@ function displayLyrics(player, lyrics, line) {
     display(next, line);
 }
 
-function addKeyListeners(player) {
-   document.addEventListener("keydown", function(event) { if (event.key === " ") { player.paused ? player.play() : player.pause() }});
-   document.addEventListener("keydown", function(event) { if (event.key === "ArrowUp") { player.playbackRate += 0.1; }});
-   document.addEventListener("keydown", function(event) { if (event.key === "ArrowDown") { player.playbackRate -= 0.1; }});
-   document.addEventListener("keydown", function(event) { if (event.key === "ArrowLeft") { player.currentTime -= 1; }});
-   document.addEventListener("keydown", function(event) { if (event.key === "ArrowRight") { player.currentTime += 1; }});
+function togglePlay(player) {
+    player.paused ? player.play() : player.pause()
+}
+
+function addKeyListeners(player, line) {
+    line.addEventListener("mousedown", function(event) { togglePlay(player); })
+    document.addEventListener("keydown", function(event) { if (event.key === " ") { togglePlay(player) }});
+    document.addEventListener("keydown", function(event) { if (event.key === "ArrowUp") { player.playbackRate += 0.1; }});
+    document.addEventListener("keydown", function(event) { if (event.key === "ArrowDown") { player.playbackRate -= 0.1; }});
+    document.addEventListener("keydown", function(event) { if (event.key === "ArrowLeft") { player.currentTime -= 1; }});
+    document.addEventListener("keydown", function(event) { if (event.key === "ArrowRight") { player.currentTime += 1; }});
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -49,5 +54,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     player.addEventListener("pause", function() { clearInterval(intervalId) } );
     player.addEventListener("seeking", function() { displayLyrics(player, lyrics, line) } );
 
-    addKeyListeners(player);
+    addKeyListeners(player, line);
 })  
