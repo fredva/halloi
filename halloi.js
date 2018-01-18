@@ -49,7 +49,7 @@ var halloi =
 "65;vi lagær halloi;\n" +
 "66.1;kjøregår og vi lagær halloi;\n" +
 "67.5;;\n" +
-"67.9;kjøregår vi lagær halloi;\n" +
+"67.9;kjøregår og vi lagær halloi;\n" +
 "70.5;det ække no å laga no;\n" +
 "71.5;halloi;xl\n" +
 "72;for detta;\n" +
@@ -76,8 +76,8 @@ var halloi =
 "98.7;ta det bokstavelig;\n" +
 "99.8;jeg må få poonani;\n" +
 "100.7;de vil ligge med han fyren de kaller;\n" +
-"102.3;smek;l\n" +
-"102.9;e;l\n" +
+"102.3;sme;l\n" +
+"102.9;ke;l\n" +
 "103.5;reven;xl\n" +
 
 

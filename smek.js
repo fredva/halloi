@@ -42,6 +42,14 @@ function addKeyListeners(player, line) {
     document.addEventListener("keydown", function(event) { if (event.key === "ArrowRight") { player.currentTime += 1; }});
 }
 
+
+function setLocationFromHash(player) {
+    var location = window.location.hash.substr(1);
+    if (!isNaN(location)) {
+        player.currentTime = location;
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function(event) {
     var lyrics = parseLyrics(halloi);
 
@@ -55,4 +63,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     player.addEventListener("seeking", function() { displayLyrics(player, lyrics, line) } );
 
     addKeyListeners(player, line);
+
+    setLocationFromHash(player);
 })  
