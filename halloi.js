@@ -20,7 +20,7 @@ var halloi =
 "27.8;mens jeg lever for noen kroner og en beta\n" +
 "29.9;halloi;s\n" +
 "30.4;men det ække no å laga no\n" +
-"31.5;halloi;xl\n" + 
+"31.5;halloi;xl\n" +
 "32;for detta;\n" +
 "32.8;stilen er smek;\n" +
 "34.2;tenner en bong;\n" +
@@ -43,7 +43,7 @@ var halloi =
 "48.5;for detta;\n" +
 "49.2;det ække no å laga no halloi;\n" +
 "52;halloi;xl\n" +
-"52.8;partyboys får hetta;\n" +
+"52.8;batty boys får hetta;\n" +
 "53.9;men det ække no å laga no;\n" +
 "55;halloi;xl\n" +
 "55.6;for detta;\n" +
@@ -80,7 +80,7 @@ var halloi =
 "92;kan du følge følge følge meg ned;\n" +
 "94;påsa med molly;\n" +
 "95.1;få som betaler;\n" +
-"96.4;partyboys får som fortjent;\n" +
+"96.4;batty boys får som fortjent;\n" +
 "98;halloi;xl\n" +
 "98.7;ta det bokstavelig;\n" +
 "99.8;jeg må få poonani;\n" +
@@ -99,7 +99,7 @@ var halloi =
 "112.8;røyker masse hink til jeg blir høy som himalaya\n" +
 "115.1;jeg hater politi jeg har en apekatt i bleia\n" +
 "117.5;kan sørge for at du må plukke plommer i madeira\n" +
-"120;hva med deg ja hva med deg ja\n" +
+"120;hva med deg hva med deg, hva med meg ja\n" +
 "122;jeg kjenner snobber som jobber\n" +
 "123.4;som håver inn flus!\n" +
 "124.4;og folk som ikke jobber\n" +
@@ -130,7 +130,7 @@ var halloi =
 "163.9;jeg ruller en rev;\n" +
 "165.1;ringen er smek;\n" +
 "166.3;jeg svever jo opp;\n" +
-"167.2;kan du følge følge følge meg ned;\n" + 
+"167.2;kan du følge følge følge meg ned;\n" +
 "172;🔊"
 ;
 
