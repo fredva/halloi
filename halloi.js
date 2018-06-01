@@ -97,7 +97,7 @@ var halloi =
 "110.2;hele byen er full av horer\n" +
 "111.5;jeg bare kaller det pattaya\n" +
 "112.8;røyker masse hink til jeg blir høy som himalaya\n" +
-"115.1;jeg hater politi jeg har en apekatt i bleia\n" +
+"115.1;jeg hater politi jeg har en advokat i bleia\n" +
 "117.5;kan sørge for at du må plukke plommer i madeira\n" +
 "120;hva med deg hva med deg, hva med meg ja\n" +
 "122;jeg kjenner snobber som jobber\n" +
